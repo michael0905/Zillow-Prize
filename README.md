@@ -7,10 +7,12 @@ A repository of my code for the kaggle competition: [Zillow Prize](https://www.k
 
 ### Architecture
 
-![Architecture](zillow.png)
-The final output is a weighted average of 4 models(Catboost, Genetic Programming, LightGBM, StackNet).
+![Architecture](zillow.png) 
 
 ![StackNet Architecture](StackNet.png)
+
+
+The final output is a weighted average of 4 models(Catboost, Genetic Programming, LightGBM, StackNet).
 [StackNet](https://github.com/kaz-Anova/StackNet) is a great framework for ensembling models. For this competition, use 12 models for 5-fold stacking(level-2 model does not use level-1 model's features). 
 
 ### Some Thoughts and Tricks
